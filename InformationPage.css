@@ -1,0 +1,112 @@
+
+/*Information Page Styling*/
+
+/*Styling for table for course number and course name */
+
+table 
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font: size 15;
+  font-weight: 100;
+  width: 50%;
+}
+/*Table headings*/
+td, th
+ {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/*Table row with every alternate row in specific background color*/
+
+tr:nth-child(even) 
+{
+  background-color: #ebebe0;
+}
+/*h2 element with background in GMU yellow-List of MS degree courses*/
+h2{
+    font-size: 20pt;
+    border: 10px solid #FFCC33;
+   background-color:#FFCC33 ;
+}
+/*horizontal line with width 5px GMU green*/
+.hr-line{
+  border: 5px solid green;
+  border-radius: 1px;
+}
+
+h3
+{
+font-weight:bold;
+}
+/*Footer in GMU green*/
+#footer 
+{
+  background-color: #006633;
+}
+
+/*List elements with no list style*/
+
+ul li{
+    list-style:none;
+}
+/*Heading at the top of the page in rectangular box in solid GMU green */
+#header 
+{
+  background-color:#006633;
+  color:white;
+  box-shadow:10px 20px #FFCC33;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+  text-transform:uppercase;
+  padding: 5px;
+  margin: auto;
+  font-size: x-large;
+  border:5px solid #006633 ;
+  background-image:url(images/Mason.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+#footer {
+  
+  position: fixed;
+  top:625px;
+  left:1200px;
+  bottom:0px;
+  right: 0px;
+  margin-bottom: 0rem;
+  text-align: right;
+  
+}
+.container-footer {
+  background-color: #006633;
+  padding: 20px;
+ color:#FFCC33;
+  margin-top: 20px;
+  
+}
+ a:link 
+ {
+  color: green;
+}
+
+/* visited link */
+a:visited
+ {
+  color: green;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color:#FFCC33;
+}
+
+/* selected link */
+a:active
+ {
+  color: yellow;
+}
